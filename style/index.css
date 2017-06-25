@@ -1,0 +1,10 @@
+.slider {
+  margin-top: 100px;
+  height: 100vh;
+}
+.banner-item {
+
+}
+.banner-item > img {
+  width: 100%;
+}
