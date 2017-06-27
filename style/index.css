@@ -201,3 +201,109 @@
   height: 700px;
   background-size: cover;
 }
+
+.section-events {
+  padding: 89px 0 138px;
+}
+.section-events .title {
+  width: 275px;
+  height: 54px;
+  background: url(../img/events.png) no-repeat center;
+  background-size: cover;
+  margin: auto;
+}
+
+.event-list {
+  overflow: hidden;
+  padding: 60px 0;
+  width: 1000px;
+  margin: auto;
+}
+.event-list .item {
+  display: inline-block;
+  width: 330px;
+  height: 440px;
+  position: relative;
+}
+.event-list .item .back-pic {
+  width: 330px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.event-list .item .content {
+  padding: 30px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  text-align: center;
+}
+.event-list .item .content h3 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 90px;
+}
+.event-list .item .content .line {
+  width: 74px;
+  height: 3px;
+  margin: 5px auto;
+  background: #fff;
+}
+.event-list .item .content .time {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+.section-vedio {
+  background: #f4f4f4;
+  padding: 77px 0 88px;
+}
+.section-vedio .title {
+  width: 313px;
+  height: 68px;
+  background: url(../img/vedio.png) no-repeat center;
+  background-size: cover;
+  margin: auto;
+}
+.section-vedio .content {
+  padding: 76px 0 60px;
+  overflow: hidden;
+  width: 1000px;
+  margin: auto;
+}
+.section-vedio .content .left {
+  width: 495px;
+  height: 600px;
+  float: left;
+  background: url(../img/vedio1.png) no-repeat center;
+  background-size: cover;
+}
+.section-vedio .content .right {
+  width: 495px;
+  float: right;
+}
+.section-vedio .content .right div {
+  width: 495px;
+  height: 295px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+.section-vedio .content .right .up {
+  background: url(../img/vedio2.png) no-repeat center;
+  background-size: cover;
+}
+.section-vedio .content .right .down {
+  background: url(../img/vedio3.png) no-repeat center;
+  background-size: cover;
+}
