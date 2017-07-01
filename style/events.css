@@ -1,0 +1,40 @@
+body {
+  background: #f4f4f4;
+}
+.events-content {
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 200px;
+  overflow: hidden;
+}
+.events-content .event {
+  width: 490px;
+  height: 300px;
+  background: #fff;
+  margin-right: 19px;
+  margin-bottom: 20px;
+  float: left;
+}
+.events-content .event:nth-child(2n) {
+  margin-right: 0;
+}
+.events-content .event .head {
+  height: 170px;
+  width: 490px;
+  overflow: hidden;
+}
+.events-content .event .head img {
+  width: 100%;
+}
+.events-content .event .content {
+  padding: 15px 25px 0;
+}
+.events-content .event .content h3{
+  font-size:24px;
+  color:#111111;
+}
+.events-content .event .content p {
+  font-size:16px;
+  color:#666666;
+  margin-top: 5px;
+}
