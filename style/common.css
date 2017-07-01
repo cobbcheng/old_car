@@ -111,8 +111,7 @@ a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
   display: none;
 }
 .nav-orders li {
-  height: 45px;
-  line-height: 45px;
+  padding: 5px 0;
   box-sizing: border-box;
   border-bottom: 1px #999 solid;
   text-align: center;

@@ -6,4 +6,12 @@ $(function () {
   }, function () {
     $('.has-order').removeClass('active')
   })
+
+  $('.scroll-p').on('click', function () {
+    $('.section-partners')[0].scrollIntoView()
+  })
+
+  $('.scroll-c').on('click', function () {
+    $('.section-contact')[0].scrollIntoView()
+  })
 })
