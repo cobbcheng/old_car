@@ -1,0 +1,44 @@
+.event-schedule-body {
+  background: #f4f4f4;
+}
+.schedule-list {
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.schedule-list:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.schedule-list .item {
+  display: block;
+  background: #fff;
+  width: 190px;
+  text-align: center;
+  margin-bottom: 84px;
+  overflow: hidden;
+  float: left;
+  margin-right: 12px;
+  transition: all .3s ease;
+}
+.schedule-list .item:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+.schedule-list .item:nth-child(5n) {
+  margin-right: 0;
+}
+.schedule-list .item .up {
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.schedule-list .item .down {
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 16px;
+  background: #e4484c;
+}
