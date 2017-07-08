@@ -4,4 +4,12 @@ $(function () {
     domList += '<div class="item"><img src="./img/logo/' + i +'.png" alt=""></div>'
   }
   $('.logo-list-4c').append(domList)
+
+  $('.banner').unslider({
+    autoplay: true,
+    arrows: false,
+    delay: 5000,
+    infinite: true,
+    nav: false
+  })
 })
