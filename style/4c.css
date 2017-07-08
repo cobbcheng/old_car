@@ -51,6 +51,7 @@
   display: -ms-flex;
   position: relative;
   z-index: 2;
+  padding-top: 100px;
 }
 .section-intro .left{
   width: 630px;
@@ -374,4 +375,13 @@
 .arrangement-link a {
   font-size:14px;
   color:#e4484c;
+}
+.unslider {
+  position: relative;
+}
+.unslider-nav {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
 }

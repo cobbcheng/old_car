@@ -59,10 +59,8 @@ a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
   width: 100%;
 }
 .nav-links {
-  display: flex;
-  display: -webkit-flex;
-  align-items: center;
-  -webkit-align-items: center;
+  width: 1200px;
+  margin: auto;
 }
 .nav-links:after {
   content: '';
@@ -74,11 +72,13 @@ a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
   box-sizing: border-box;
   height: 100px;
   line-height: 100px;
-  padding: 0 20px;
+  /*padding: 0 20px;*/
   text-align: center;
   cursor: pointer;
   font-size:14px;
   color:#000000;
+  width: 171px;
+  float: left;
 }
 .nav-links .nav-item:hover {
   background:#fef0f0;
@@ -93,8 +93,8 @@ a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
   vertical-align: 1px;
 }
 .nav-links .has-order {
-  width: 109px;
   padding: 0;
+  /*width: 197px;*/
 }
 .nav-links .active {
   background:#fef0f0;
@@ -104,7 +104,8 @@ a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
 }
 .nav-orders {
   padding: 0 14px;
-  width: 169px;
+  width: 197px;
+  box-sizing: border-box;
   background:#fef0f0;
   box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
   z-index: 2;
