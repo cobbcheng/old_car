@@ -158,6 +158,7 @@
 }
 .section-arrangement {
   padding-bottom: 78px;
+  background: #f4f4f4;
 }
 .section-arrangement h2 {
   text-align: center;
@@ -351,6 +352,7 @@
 .arrangement-content {
   float: right;
   width: 500px;
+  margin-top: 90px;
 }
 .arrangement-content-list .item {
   font-size:18px;
