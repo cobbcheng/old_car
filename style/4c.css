@@ -151,8 +151,11 @@
 }
 .section-history .photo div {
   width: 320px;
+  background: #000;
 }
-
+.section-history .photo div img {
+  display: block;
+}
 .section-arrangement {
   padding-bottom: 78px;
 }

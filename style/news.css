@@ -99,3 +99,8 @@
 .news-detail .content img {
   width: 100%;
 }
+.news-detail .content img.small-img {
+  display: block;
+  width: 300px;
+  margin: 15px auto 15px;
+}

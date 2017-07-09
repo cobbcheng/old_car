@@ -11,10 +11,57 @@
   float: left;
   margin-right: 25px;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 .photo-list li:nth-child(4n) {
   margin-right: 0;
 }
 .photo-list li img {
   width: 100%;
+}
+.show-pic-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 500;
+  display: none;
+}
+.show-pic-box .shade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index:501;
+  background: rgba(0, 0, 0, 0.5);
+}
+.show-pic-box .pic{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 90px;
+  max-width: 80%;
+  max-height: 650px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin: auto;
+  z-index:502;
+  text-align: center;
+}
+.show-pic-box .pic img {
+  width: 100%;
+}
+.show-pic-box .close {
+  font-size: 80px;
+  font-weight: 800;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  color: #fff;
+  z-index: 530;
+  transform: rotate(45deg);
+  cursor: pointer;
+  line-height: 0;
 }

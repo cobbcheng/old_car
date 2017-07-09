@@ -50,6 +50,7 @@ body {
   position: relative;
   overflow: hidden;
   height: 400px;
+  cursor: pointer;
 }
 .big-vedio .head-img .img {
   width: 490px;
@@ -89,6 +90,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 210px;
+  cursor: pointer;
 }
 .normal-vedio .left .pic img{
   width: 210px;
@@ -108,4 +110,51 @@ body {
 .normal-vedio .right .date {
   font-size:16px;
   color:#666666;
+}
+
+.show-video-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 500;
+  display: none;
+}
+.show-video-box .shade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index:501;
+  background: rgba(0, 0, 0, 0.5);
+}
+.show-video-box .video{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 130px;
+  width: 1000px;
+  margin: auto;
+  z-index:502;
+  text-align: center;
+  /*background: #000;*/
+}
+.show-video-box .video video {
+  width: 100%;
+  display: block;
+}
+
+.show-video-box .close {
+  font-size: 80px;
+  font-weight: 800;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  color: #fff;
+  z-index: 530;
+  transform: rotate(45deg);
+  cursor: pointer;
+  line-height: 0;
 }
