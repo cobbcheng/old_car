@@ -3,7 +3,7 @@ $(function () {
   var $picBox = $('.show-pic-box')
 
   $('body').on('click', '.photo-list li', function () {
-    var url = $(this).find('img').attr('src')
+    var url = $(this).find('img').attr('data-source')
     $picNode.attr('src', url)
     $picBox.fadeIn()
     $('body').css('overflow', 'hidden')
@@ -16,7 +16,7 @@ $(function () {
   // render
   var list = ''
   for (var i = 1; i <= 32; i++) {
-    list += '<li><img src="http://www.classiccarchina.org/newsite/piclist/p' + i +'.jpg" alt=""></li>'
+    list += '<li><img data-source="http://www.classiccarchina.org/newsite/piclist/p' + i +'.jpg" src="http://www.classiccarchina.org/newsite/thumb-piclist/p' + i +'.jpg" alt=""></li>'
   }
   $('.J_list').append(list)
 })
