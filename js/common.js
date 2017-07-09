@@ -22,13 +22,17 @@ $(function () {
     e.preventDefault()
     var index = $(this).index()
     if (index === 0) {
-
+      window.location.href = './associated-media.html'
     } else if (index === 1) {
-
+      window.location.href = './cooperation.html'
     } else if (index === 2) {
       window.location.href = './part-sponsors.html'
     } else if (index === 3) {
-
+      window.location.href = './associated-media.html'
     }
+  })
+
+  $('.J_contact').on('click', function () {
+    $('.common-footer')[0].scrollIntoView()
   })
 })

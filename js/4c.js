@@ -11,8 +11,4 @@ $(function () {
     delay: 5000,
     infinite: true
   })
-
-  $('.J_contact').on('click', function () {
-    $('.fc-footer')[0].scrollIntoView()
-  })
 })
