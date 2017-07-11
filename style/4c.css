@@ -301,12 +301,13 @@
   width:390px;
   height:140px;
   float: right;
-  padding-left: 30px;
+  padding: 25px 10px;
   box-sizing: border-box;
-  padding-top: 25px;
+  // padding-top: 25px;
 }
 .section-news .list .item .main h3 {
   font-size:22px;
+  line-height: 25px;
   color:#333333;
 }
 .section-news .list .item .main p {
@@ -352,7 +353,7 @@
 .arrangement-content {
   float: right;
   width: 500px;
-  margin-top: 90px;
+  /*margin-top: 90px;*/
 }
 .arrangement-content-list .item {
   font-size:18px;
