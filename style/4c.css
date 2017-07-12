@@ -110,7 +110,7 @@
 }
 
 .section-history {
-  height: 700px;
+  padding-bottom: 50px;
   background:#2d313d;
   color: #fff;
 }
@@ -177,7 +177,7 @@
 
 
 .section-news {
-  padding: 100px 0 80px;
+  padding: 0 0 80px;
   background: #f8f5f0;
 }
 
