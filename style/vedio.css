@@ -39,6 +39,11 @@ body {
   float: right;
   width: 490px;
 }
+.veio-body .vedios>.middle {
+  float: none;
+  width: 490px;
+  margin: auto;
+}
 .big-vedio {
   position: relative;
   overflow: hidden;
