@@ -46,4 +46,5 @@ $(function () {
   $footer.find('.mail p').text('autohelper@sina.com')
   $footer.find('.location p').text('You Fu Kong Jian, 7th Floor, Block C, Long Yuan Wen Hua Chuang Yi Yuan, Xi Dian No.1110, Chao Yang District, Beijing, 100123, P. R. China')
   $footer.find('.phone p').text('+0086-10-63380601  +0086-10-63380602')
+  $footer.find('.bottom').text('COPYRIGHT.CLASSIC VEHICLE UNION OF CHINA, INC. ALL RIGHTS RESERVED')
 })
