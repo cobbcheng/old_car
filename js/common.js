@@ -18,6 +18,12 @@ $(function () {
     e.preventDefault()
 
   })
+  var replace = $('.nav-item:nth-child(5)').html()
+  $('.nav-item:nth-child(5)').html(replace.replace('COOPERATE', 'COOPERATION'))
+  $('.nav-item:nth-child(5)>.nav-orders>li').each(function () {
+    var content = $(this).find('a').text()
+    $(this).find('a').text(content.toUpperCase())
+  })
   $('.nav-item:nth-child(5)>.nav-orders>li').on('click', function (e) {
     e.preventDefault()
     var index = $(this).index()
@@ -35,4 +41,9 @@ $(function () {
   $('.J_contact').on('click', function () {
     $('.common-footer')[0].scrollIntoView()
   })
+
+  var $footer = $('.common-footer')
+  $footer.find('.mail p').text('autohelper@sina.com')
+  $footer.find('.location p').text('You Fu Kong Jian, 7th Floor, Block C, Long Yuan Wen Hua Chuang Yi Yuan, Xi Dian No.1110, Chao Yang District, Beijing, 100123, P. R. China')
+  $footer.find('.phone p').text('+0086-10-63380601  +0086-10-63380602')
 })
